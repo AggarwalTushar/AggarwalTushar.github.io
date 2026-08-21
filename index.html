@@ -273,23 +273,11 @@
         </div>
         
         <div class="col-md-8 pt-5 about text-justify">
-          <div class="intro-section">
+          <div class="intro-section"> <p> I am a Master's student in the <a class="in-text" href="https://icme.stanford.edu/" target="_blank">Institute for Computational and Mathematical Engineering (ICME)</a> at Stanford University, specializing in Data Science. My interests lie at the intersection of machine learning, large language models, and intelligent systems, with a particular focus on building efficient, reliable, and capable AI systems. </p>
+          <p> Previously, I was a Research Fellow at <a class="in-text" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" target="_blank">Microsoft Research India</a> in the AI4Code group, where I worked on large language models for code understanding and generation with <a class="in-text" href="https://scholar.google.com/citations?user=FCCMbWYAAAAJ&hl=en" target="_blank">Dr. Aditya Kanade</a>, <a class="in-text" href="https://scholar.google.com/citations?user=ZBkUp20AAAAJ&hl=en" target="_blank">Dr. Nagarajan Natarajan</a>, and <a class="in-text" href="https://scholar.google.com/citations?user=dqHSxE8AAAAJ&hl=en" target="_blank">Dr. Abhijeet Awasthi</a>. My work resulted in publications at <a class="in-text" href="https://icml.cc/" target="_blank">ICML</a>, <a class="in-text" href="https://colmweb.org/" target="_blank">COLM</a>, and <a class="in-text" href="https://iclr.cc/" target="_blank">ICLR</a>, including work on robust adaptation of code LMs and evaluating models beyond functional correctness. </p>
+          <p> I have also worked on AI systems in both research and production settings. At Stanford, I was a Graduate Research Assistant with the <a class="in-text" href="https://deliberation.stanford.edu/" target="_blank">Crowdsourced Democracy Team</a>, building full-stack infrastructure for civic deliberation experiments. I am currently a Software Engineering Intern at Uber, where I work on <a class="in-text" href="https://www.uber.com/" target="_blank">Earner Copilot</a>, an LLM-based conversational assistant for drivers and couriers, developing agentic capabilities for diagnosing demand and answering forecasting questions. </p>
             <p>
-              I am a First Year Master's student in the <a class="in-text" href="https://icme.stanford.edu/" target="_blank">Institute for Computational and Mathematical Engineering (ICME)</a> at Stanford University. 
-              Previously, I was a <a class="in-text" href="https://www.microsoft.com/en-us/research/academic-program/research-fellows-program-at-microsoft-research-india/" target="_blank">Research Fellow</a> at 
-              <a class="in-text" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" target="_blank">Microsoft Research India</a>, where my research focused on advancing the capabilities of Large Language Models (LLMs), particularly in the context of code understanding and generation. 
-              I worked with 
-              <a class="in-text" href="https://scholar.google.com/citations?user=FCCMbWYAAAAJ&hl=en" target="_blank">Dr. Aditya Kanade</a>, 
-              <a class="in-text" href="https://scholar.google.com/citations?user=ZBkUp20AAAAJ&hl=en" target="_blank">Dr. Nagarajan Natarajan</a>, and 
-              <a class="in-text" href="https://scholar.google.com/citations?user=dqHSxE8AAAAJ&hl=en" target="_blank">Dr. Abhijeet Awasthi</a> in the AI4CODE team.
-            </p>
-          
-            <p>
-              Broadly, my research interests span machine learning and its applications, with a focus on reinforcement learning, graph machine learning, and foundation models. I am interested in developing principled methods that improve model efficiency, reliability, and interpretability, as well as in applying ML techniques to real-world systems and decision-making problems. I am particularly drawn to work that combines theoretical insights with practical impact.
-            </p>
-          
-            <p>
-              I earned my B.Tech. in Mathematics and Computing from 
+              My recent coursework at Stanford includes Language Modeling from Scratch, Reinforcement Learning, Natural Language Processing, and Machine Learning with Graphs, complementing my broader interests in foundation models, reinforcement learning, and machine learning systems. I earned my B.Tech. in Mathematics and Computing from 
               <a class="in-text" href="https://iitgoa.ac.in/" target="_blank">IIT Goa</a>, India, in 2023. 
               For more details about my background, see my <a class="in-text" href="https://drive.google.com/file/d/1ZXrb-Fr5JdDkDQaBuTnEode-wxpu_pCh/view?usp=sharing" target="_blank">CV</a>. 
               If you'd like to discuss my work or research interests, feel free to <a class="in-text" href="mailto:tushar.aggarwal53@gmail.com">get in touch</a>.
@@ -297,6 +285,26 @@
           </div>
           
           <p class='header-1'>Experience</p>
+           <div class="py-3">
+            <div class="expmeta row">
+              <div class="col-sm-1"><img class="expicon m-2" src="images/uber.png"></div>
+              <div class="col-sm-8 expdetails ml-4">
+                <span class="expjob"><a class="tag" href="https://www.uber.com/us/en/rider-home/" target="_blank">Uber</a></span><br>
+                <div class='pt-1'>June 2026 - Sep 2026</div>
+              </div>
+            </div>
+            <div class="details">
+              <p>
+                <span class="bullet">--</span> Shipped natural-language date-query resolution in Earner Copilot, enabling drivers to ask date-grounded questions about their
+earnings and activity<br>
+                <span class="bullet">--</span> Integrated 3rd-party API (Python) for real-world events data into demand-forecast answers, selecting top-3 events by
+attendance and masking latency
+                <span class="bullet">--</span> uilt a ride-diagnostics sub-agent that runs parallel checks (earner wait time, online/on-trip state, mobility vs. delivery
+demand in current and nearby areas) to answer “why am I not getting requests?” with actionable diagnosis 
+              </p>
+            </div>
+          </div>
+          
           <div class="py-3">
             <div class="expmeta row">
               <div class="col-sm-1"><img class="expicon m-2" src="images/msr1.png"></div>
@@ -307,10 +315,10 @@
             </div>
             <div class="details">
               <p>
-                <span class="bullet">--</span> Created a benchmark to evaluate the abilities of LLMs in generating functionally correct and optimized code.<br>
-                <span class="bullet">--</span> Fine-tuned LLMs for code-editing, achieving up to 15–20% improvement and creating pipeline for synthetic
- data-generation using GPT-4 and Llama, presented this work at ICLR25 Singapore.
-                <span class="bullet">--</span> Worked on improving the reasoning of multimodal LLMs.
+                <span class="bullet">--</span> Co-authored NextCoder (ICML 2025, DL4C @ ICLR 2025): designed a robust adaptation method for 7B–32B parameter code
+LMs across diverse code-editing tasks, achieving 10–20% absolute gains over Qwen2.5-Coder baselines.<br>
+                <span class="bullet">--</span> Built NoFunEval (COLM 2024), a multi-language benchmark evaluating code LMs on non-functional requirements (latency,
+security, etc.)
               </p>
             </div>
           </div>
